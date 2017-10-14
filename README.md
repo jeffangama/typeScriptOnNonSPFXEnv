@@ -2,9 +2,9 @@ TypeScript code to be added to script editor or content editor, including react 
 
 JQUERY ADDED, issue Office UI Fixed
 
-Copied from
+Copied from sp-dev-samples : https://github.com/SharePoint/sp-dev-samples
 ```
-git clone https://github.com/SharePoint/sp-dev-samples.git
+git clone https://github.com/seaSide974/typeScriptOnNonSPFXEnv.git
 ```
 
 ## Contributions
