@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Hello } from './components/HelloWorld/HelloWorld';
-
+import * as $ from 'jquery';
 const webparts: NodeListOf<Element> = document.getElementsByClassName('webpart-script-example');
 for (let i: number = 0; i < webparts.length; i++) {
     // Get the data property from the Element
@@ -12,3 +12,5 @@ for (let i: number = 0; i < webparts.length; i++) {
         webparts[i]
     );
 }
+
+console.log($(".webpart-script-example").length);
